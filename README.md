@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# 📸 SNAPPIE Admin Panel
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Snappie Admin Panel adalah aplikasi dashboard berbasis web yang digunakan untuk mengelola konten aplikasi Snappie seperti Frame, Colour, dan Manajemen Transaksi Visitor.
 
-## Available Scripts
+Proyek ini dibangun menggunakan teknologi modern:  
+**React.js + Vite + Tailwind CSS**  
+dengan desain bertema pixel retro & playful khas Snappie.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Fitur Utama
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ✨ 1. Manajemen Frame
+- Tambah / lihat daftar frame
+- Filter: Semua & Premium
+- Popup form stylized untuk upload & input informasi frame
+- Preview gambar frame
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🎨 2. Manajemen Colour
+- Tambah warna baru dengan HEX picker
+- Preview warna real-time
+- Tabel daftar warna
+- UI konsisten dengan halaman Frame
 
-### `npm test`
+### 💳 3. Transaksi
+- Statistik real-time (Dummy data sementara)
+  - Total pendapatan
+  - Total transaksi sukses
+  - Total kunjungan
+- Tabel transaksi custom Snappie
+- Filter:
+  - Search
+  - Status (Premium / Gratis)
+  - Date Picker (React-Datepicker)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🔐 4. Login Admin
+- Halaman login signature Snappie (tema TV unik)
+- Validasi dasar (dummy login)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🏗️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Teknologi | Fungsi |
+|----------|--------|
+| React.js | Library UI utama |
+| Vite | Build tool super cepat |
+| Tailwind CSS | Styling berbasis utility |
+| React Icons | Icon UI |
+| React Datepicker | Komponen filter tanggal |
+| React Router DOM | Routing halaman admin |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📂 Struktur Folder Penting
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🔧 Cara Instalasi & Menjalankan Proyek
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 📌 1️⃣ Clone Repository
+```sh
+git clone https://github.com/username/admin-snappie-fe.git
+cd admin-snappie-fe
+npm install
+npm run dev
+http://localhost:5173/
